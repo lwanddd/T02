@@ -1,0 +1,86 @@
+#display {
+  display: flex;
+  flex-wrap: wrap;
+  }
+#operator {
+  display: flex;
+  flex-wrap: wrap;
+  }
+#pad {
+  display: flex;
+  flex-wrap: wrap;
+  }
+
+#display{
+  background-color: black;
+  width: 320px;
+  height: 80px;
+  margin: 0 auto;
+  border: solid 1px #A9A9A9;
+  border-radius: 10px;
+  margin-top: 0px;
+}
+#display #operator{
+  background-color: black;
+  margin: 0 auto;
+  border: solid 1px #A9A9A9;
+}
+#display #pad{
+  max-width: 240px;
+  height: 320px;
+  margin: 0 auto;
+  border: solid 1px #A9A9A9;
+  margin-left: 0px;
+  align-items: center;
+  margin-top: 0px;
+  justify-content: center;
+}  
+#displayvalue{
+  background-color: black;
+  width: 100%;
+  font-size: 60px;
+  align-items: right;
+  text-align: right;
+  margin-right: 10px;
+  color: white;
+  border-radius: 10px;
+}
+
+#pad .number{
+  border: solid 1px #A9A9A9;
+  width: 78px;
+  height: 80px;
+  font-size: 30px;
+  margin-top: 0px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.operator{
+  background: #E7E7E7;
+  border: solid 1px #A9A9A9;
+  width: 78px;
+  height: 80px;
+  font-size: 30px;
+  text-align: center;
+  margin: 0px;
+  align-items: center;
+  justify-content: center;
+  line-height: 80px;
+}
+.equals{
+  position: absolute;
+  background: #FA8664;
+  border: solid 1px #A9A9A9;
+  width: 78px;
+  height: 320px;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 152px;
+  margin-left: 240px;
+  align-items: center;
+  justify-content: center;
+  line-height:320px;
+}
